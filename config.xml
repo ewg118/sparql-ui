@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<title>Linked Open Usable Data for the British Museum</title>
+	<url>http://localhost:8080/orbeon/sparql-ui/</url>
+	<sparql>
+		<query>http://localhost:8080/fuseki/bm/query</query>
+		<update>http://localhost:8080/fuseki/bm/update</update>
+		<store>http://localhost:8080/fuseki/bm/data</store>
+	</sparql>
+	<mapboxKey>pk.eyJ1IjoiZXdnMTE4IiwiYSI6IjViNDRlMzgxMjkyMDg0MGIxYTNlMzlkMjk1ZTI5Yzg5In0.1FU6cKAs4-vPMroB_l_0lA</mapboxKey>	
+	<namespaces>
+		<namespace prefix="bibo" uri="http://purl.org/ontology/bibo/"/>
+		<namespace prefix="bmo" uri="http://collection.britishmuseum.org/id/ontology/" default="true"/>
+		<namespace prefix="ecrm" uri="http://erlangen-crm.org/current/" default="true"/>
+		<namespace prefix="dcterms" uri="http://purl.org/dc/terms/"/>
+		<namespace prefix="dcmitype" uri="http://purl.org/dc/dcmitype/" default="true"/>
+		<namespace prefix="foaf" uri="http://xmlns.com/foaf/0.1/" default="true"/>
+		<namespace prefix="geo" uri="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+		<namespace prefix="object" uri="http://collection.britishmuseum.org/id/object/" default="true"/>
+		<namespace prefix="rdf" uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#" default="true"/>
+		<namespace prefix="rdfs" uri="http://www.w3.org/2000/01/rdf-schema#" default="true"/>
+		<namespace prefix="skos" uri="http://www.w3.org/2004/02/skos/core#" default="true"/>
+		<namespace prefix="thes" uri="http://collection.britishmuseum.org/id/thesauri/" default="true"/>
+		<namespace prefix="xsd" uri="http://www.w3.org/2001/XMLSchema#" default="true"/>
+	</namespaces>
+</config>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns="http://www.orbeon.com/oxf/controller" xmlns:oxf="http://www.orbeon.com/oxf/processors" matcher="oxf:perl5-matcher">
+
+	<!-- ****************
+	* PUBLIC INTERFACE *
+	***************** -->
+	
+	<!-- **** PAGES **** -->			
+	<page path="/sparql-ui/sparql" view="xpl/views/pages/sparql.xpl"/>	
+	<page path="/sparql-ui/" view="xpl/views/pages/index.xpl"/>
+	
+	<!-- SPARQL -->
+	<page path="/sparql-ui/query" view="xpl/controllers/conneg-sparql.xpl"/>
+	
+
+	<epilogue url="oxf:/config/epilogue.xpl"/>
+</config>
